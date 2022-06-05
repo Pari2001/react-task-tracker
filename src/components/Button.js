@@ -4,9 +4,10 @@ import React from 'react'
 const Button =({color ,Text, onClick}) => {
    
     return(
-
+<>
         <button onClick ={onclick}  style ={{backgroundColor : color}} className ='btn'>{Text}</button>
-        
+        <button>hi</button>
+</>
     )
 }
 //Button.defaultProps {
